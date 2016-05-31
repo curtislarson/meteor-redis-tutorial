@@ -1,0 +1,13 @@
+{
+  "name": "meteor-redis-tutorial",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "hiredis": "^0.4.1",
+    "meteor-node-stubs": "~0.2.0",
+    "redis": "^2.6.0-2"
+  }
+}

@@ -1,0 +1,25 @@
+<head>
+  <title>Redis Tutorial</title>
+</head>
+
+<body>
+  <h1>Welcome to the Redis Tutorial!</h1>
+
+  {{> tutorial}}
+</body>
+
+<template name="tutorial">
+  <div>
+    Key:<br>
+    <input id="key" type="text" name="key"><br>
+    Value:<br>
+    <input id="value" type="text" name="value">
+    <br>
+    <button id="get">Get</button>
+    <br>
+    <button id="set">Set</button>
+  </div>
+  <div>
+    <label>Get Value: <span id="getValue"></span></label>
+  </div>
+</template>
